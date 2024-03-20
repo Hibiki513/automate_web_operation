@@ -19,14 +19,13 @@ kujiUrlList = [
     'https://r10.to/hVMGy4',
     'https://kuji.rakuten.co.jp/26e390eccf?scid=wwkuji_rakuma_luckylottery',
     'https://kuji.rakuten.co.jp/5f93b1fd01',
-    'https://kuji.rakuten.co.jp/3373caeddb',
-    'https://www.infoseek.co.jp/mission/list/?scid=loginiskuji_kujilist#login_iskuji'
+    'https://kuji.rakuten.co.jp/3373caeddb'
 ]
 
 #useID
-userID = 'contrebasse513@gmail.com'
+userID = 'YourUserID'
 #pass
-password = 'chatnoir513'
+password = 'YourPassword'
 
 #指定のURLのくじを引く関数
 def openKujiBrowser(selenium, url):
