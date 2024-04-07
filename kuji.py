@@ -73,6 +73,10 @@ except NoSuchElementException:
     print("ログイン要素が見つかりませんでした")
 #ページ読み込みの為遅延させる
 selenium.stop(5)
+#ラッキーくじのページへ遷移する
+selenium.access('https://kuji.rakuten.co.jp/')
+#ページ読み込みの為遅延させる
+selenium.stop(5)
 #くじのURLリストを開く
 for url in kujiUrlList:
     openKujiBrowser(selenium, url)
